@@ -17,7 +17,7 @@ class Owner
     @@all.clear
   end
 
-  def slf.count
+  def self.count
     @@all.length
   end
   
