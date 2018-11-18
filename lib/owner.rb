@@ -1,7 +1,8 @@
 class Owner
   attr_reader :species
   attr_accessor :name
-  @@all
+  @@all = []
+
   def initialize(species)
     @species = species
     @name = name
@@ -11,4 +12,14 @@ class Owner
   def self.all?
     @@all
   end
+
+  def self.reset
+    @@all.clear
+  end
+
+  def slf.count
+    @@all.length
+  end
+  
+
 end
